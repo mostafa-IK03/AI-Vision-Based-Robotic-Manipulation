@@ -5,7 +5,7 @@ This project presents a machine learning-based approach for solving inverse kine
 
 Solving inverse kinematics is essential for robotic arm operation, whether during initial setup or after configuration changes. The ML-based approach enables online calibration, making robotic arms more resilient to environmental changes like vibrations or mechanical wear without requiring operational downtime.
 
-## Demo
+## Hardware Demo
 https://www.youtube.com/watch?v=0vlXIcAu7CQ
 
 ## Features
