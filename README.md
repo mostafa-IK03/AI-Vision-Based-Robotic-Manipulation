@@ -120,8 +120,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - TensorFlow and Keras for neural network implementations
 - Scikit-learn for preprocessing and regression models
 - Matplotlib for visualization tools
-
-## Contact
-For questions or support, please contact:
-- Email: your.email@example.com
-- GitHub: [Your GitHub Profile](https://github.com/yourusername)
