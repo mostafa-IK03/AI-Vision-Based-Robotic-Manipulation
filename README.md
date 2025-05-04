@@ -1,8 +1,7 @@
 # Universal IK Solver: ML-Based Inverse Kinematics for Robotic Arms
 
 ## Description
-This project presents a machine learning-based approach for solving inverse kinematics of robotic arms with multiple degrees of freedom. It demonstrates solutions for both 3DOF and 6DOF robotic arms, enabling accurate positioning without the computational complexity of traditional analytical methods. This work was originally developed as part of a bachelor thesis.
-
+This project presents a machine learning-based approach for solving inverse kinematics of robotic arms with multiple degrees of freedom. It demonstrates solutions for both 2DOF and 6DOF robotic arms (but the approach can be extended to other variations as will be presented later), enabling accurate positioning without the computational complexity of traditional analytical methods
 Solving inverse kinematics is essential for robotic arm operation, whether during initial setup or after configuration changes. The ML-based approach enables online calibration, making robotic arms more resilient to environmental changes like vibrations or mechanical wear without requiring operational downtime.
 
 ## Hardware Demo
@@ -10,21 +9,20 @@ https://www.youtube.com/watch?v=0vlXIcAu7CQ
 
 ## Features
 - Dataset generation for robotic arms with configurable DOF (2-6)
-- Multiple ML model implementations (LSTM, Sequential Neural Networks, Gradient Boosting)
+- LSTM Neural Network model to handle different robotic manipulator structure
 - Interactive GUI tools for dataset generation, model training, and trajectory planning
 - Visualization tools for dataset exploration and model accuracy testing
 - Support for different DH parameter configurations
 - Real-time prediction of joint angles from desired end-effector positions
+- Vision model to detect the objects (food items) specified by the user
+- Final integrated hardware setup for demo and testing purposes
 
 ## Installation Instructions
 
 ### Prerequisites
 - Python 3.6+
-- TensorFlow 2.x
-- NumPy, Pandas, Matplotlib
-- Sympy
-- Scikit-learn
-- Visual Kinematics
+- conda virtual environmnet
+- installing the dependencies and requirements fron the 'venv-dependencies' folder
 
 ### Setup
 1. Clone the repository:
@@ -35,8 +33,8 @@ https://www.youtube.com/watch?v=0vlXIcAu7CQ
 
 2. Create and activate a virtual environment:
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   conda env create --name envname --file=env_inverse_kinematics.yml
+   # On Windows: conda activate envname
    ```
 
 3. Install dependencies:
@@ -91,9 +89,9 @@ python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 - Joint angle limits can be specified during dataset generation
 
 ## Project Structure
-- `dataset_generation/`: Scripts for generating and processing datasets
-- `training/`: Model training implementations (LSTM, Sequential NN, etc.)
-- `testing/`: Tools for evaluating models and visualizing results
+- `dataset_generation/`: Scripts for generating and processing datasets and saving the generated datasets (Generation GUI)
+- `training/`: Model training implementations (LSTM, and training GUI)
+- `testing/`: Tools for evaluating models and visualizing results (Trajectory GUI)
 - `saved_models/`: Pre-trained models and scalers
 - `venv_dependencies/`: Virtual environment configuration
 
@@ -104,22 +102,4 @@ python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
 
-### Coding Standards
-- Follow PEP 8 style guidelines
-- Include docstrings for all functions and classes
-- Write unit tests for new functionality
 
-## Testing
-Run tests using:
-```
-python -m unittest discover tests
-```
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Credits
-- Visual Kinematics library for forward kinematics calculations
-- TensorFlow and Keras for neural network implementations
-- Scikit-learn for preprocessing and regression models
-- Matplotlib for visualization tools
