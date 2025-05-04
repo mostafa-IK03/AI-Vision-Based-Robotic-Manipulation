@@ -103,7 +103,7 @@ python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 - `saved_models/`: Pre-trained models and scalers
 - `venv_dependencies/`: Virtual environment configuration
 - `GroundingDINO_with_Segment_Anything`: Python notebook to process the image captured from the calibrated camera and return the object position
-![WhatsApp Image 2025-05-04 at 01 08 43](https://github.com/user-attachments/assets/a66fb07c-50ca-4ca9-bb44-d2ca39614762)
+
 
 ## Hardware Implementation
 
