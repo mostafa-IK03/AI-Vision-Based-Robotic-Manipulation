@@ -103,6 +103,15 @@ python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 - `saved_models/`: Pre-trained models and scalers
 - `venv_dependencies/`: Virtual environment configuration
 - `GroundingDINO_with_Segment_Anything`: Python notebook to process the image captured from the calibrated camera and return the object position
+![WhatsApp Image 2025-05-04 at 01 08 43](https://github.com/user-attachments/assets/a66fb07c-50ca-4ca9-bb44-d2ca39614762)
+
+## Hardware Implementation
+
+A custom 2-DOF manipulator was used with a calibrated camera to perform two main task (refere to the video demo and the below pictures):
+- Draw a pregenerated trajectory: letter A
+- Locate an object and move to pick it.
+![WhatsApp Image 2025-05-04 at 01 08 43](https://github.com/user-attachments/assets/d56f36c7-da90-4e17-87b7-a7851d454c4f)
+
 
 ## Contributing
 1. Fork the repository
