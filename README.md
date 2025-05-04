@@ -1,5 +1,3 @@
-# Universal IK Solver: ML-Based Inverse Kinematics for Robotic Arms
-
 ## Description
 This project presents a machine learning-based approach for solving inverse kinematics of robotic arms with multiple degrees of freedom. It demonstrates solutions for both 2DOF and 6DOF robotic arms (but the approach can be extended to other variations as will be presented later), enabling accurate positioning without the computational complexity of traditional analytical methods
 Solving inverse kinematics is essential for robotic arm operation, whether during initial setup or after configuration changes. The ML-based approach enables online calibration, making robotic arms more resilient to environmental changes like vibrations or mechanical wear without requiring operational downtime.
