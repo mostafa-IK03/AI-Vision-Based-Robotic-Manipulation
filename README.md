@@ -110,8 +110,9 @@ python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 A custom 2-DOF manipulator was used with a calibrated camera to perform two main task (refere to the video demo and the below pictures):
 - Draw a pregenerated trajectory: letter A
 - Locate an object and move to pick it.
-![WhatsApp Image 2025-05-04 at 01 08 43](https://github.com/user-attachments/assets/d56f36c7-da90-4e17-87b7-a7851d454c4f)
 
+
+![Screenshot 2025-05-04 081316](https://github.com/user-attachments/assets/f5c94cf1-b762-4105-b651-6091973118da)
 
 ## Contributing
 1. Fork the repository
