@@ -102,6 +102,7 @@ python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 - `testing/`: Tools for evaluating models and visualizing results (Trajectory GUI)
 - `saved_models/`: Pre-trained models and scalers
 - `venv_dependencies/`: Virtual environment configuration
+- `GroundingDINO_with_Segment_Anything`: Python notebook to process the image captured from the calibrated camera and return the object position
 
 ## Contributing
 1. Fork the repository
