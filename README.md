@@ -56,6 +56,8 @@ Or use the command-line script for specific configurations:
 ```
 python Universal_IK_Solver/dataset_generation/dataset_generation_6DOF.py
 ```
+![WhatsApp Image 2025-04-29 at 09 30 48](https://github.com/user-attachments/assets/a6e7ed70-c3d0-43f7-8e28-f3ff9463af2b)
+
 
 ### Training Models
 Train a model using the training GUI:
@@ -70,6 +72,9 @@ Or use specific model training scripts:
 python Universal_IK_Solver/training/LSTM_Neural_Network.py
 ```
 
+![WhatsApp Image 2025-04-29 at 11 09 27](https://github.com/user-attachments/assets/a4618266-e472-4f5a-a3da-7e14246d1a24)
+
+
 ### Testing and Visualization
 Test a trained model with trajectory planning:
 
@@ -82,6 +87,9 @@ Visualize dataset points:
 ```
 python Universal_IK_Solver/dataset_generation/dataset_visualization.py
 ```
+
+![WhatsApp Image 2025-04-29 at 16 41 02](https://github.com/user-attachments/assets/ae63e950-f236-4435-834a-fb89f9d50a66)
+
 
 ## Configuration
 - DH parameters can be configured in the dataset generation scripts
